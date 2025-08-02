@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-row: auto;
+    gap: 2px;
+    height: 100%;
+    width:100%;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+p,li{
+     font-size: 1.4rem;
+     line-height:2rem;
+}
+ul{
+    padding:10px;
+}
+h1{
+    margin:4px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#main{
+    grid-column: 2 / 3;
+    margin:10px;
+    padding:5px;
+}
+figure,figcaption{
+    text-align:center;
+    padding:4px;
+}
+#gallery{
+    min-height:400px;
+    min-width: 600px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:15px;
+    
+}
+#gallery>img{
+    margin:4px;
+}
+img{
+    height:200px;
+    width:300px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+    object-fit: cover;
+}
+.change{
+    z-index: 999;
+    height:80vh;
+    width:80vw;
+}
+video{
+    text-align: center;
+    height: 400px;
+    width:600px;
+}
+i{
+    padding:10px;
+    height:10px;
+    width:20px;
+    cursor:pointer;
+    color:blue;
+}
+.ending{
+    border:2px solid blue;
+    margin:auto;
+    width:200px;
+    height:50px;
+    
+}
+.vid{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body{
+    display: grid;
+    font-size: 1rem;
+
+}
+p,li{
+     font-size: 1rem;
+     line-height:2rem;
+}
+video{
+    text-align: center;
+    height: 300px;
+    width:400px;
+}
+}

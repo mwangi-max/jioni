@@ -119,4 +119,9 @@ video{
         height:70vh;
         width:90vh;
     }
+    video{
+    text-align: center;
+    height: 300px;
+    width:400px;
+}
 }

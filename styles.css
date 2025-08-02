@@ -107,3 +107,16 @@ video{
     width:600px;
 }
 }
+@media screen and (max-width: 479px){
+    body{
+        display:grid;
+    }
+    img{
+        height:250px;
+        width:350px;
+    }
+    .change{
+        height:70vh;
+        width:90vh;
+    }
+}

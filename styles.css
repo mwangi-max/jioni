@@ -48,8 +48,8 @@ figure,figcaption{
     margin:4px;
 }
 img{
-    height:200px;
-    width:300px;
+    height:300px;
+    width:400px;
     border-radius: 5px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
     object-fit: cover;
@@ -57,7 +57,7 @@ img{
 .change{
     z-index: 999;
     height:80vh;
-    width:80vw;
+    width:90vw;
 }
 video{
     text-align: center;
@@ -98,6 +98,6 @@ p,li{
 video{
     text-align: center;
     height: 300px;
-    width:400px;
+    width:300px;
 }
 }

@@ -103,4 +103,9 @@ video{
     height: 300px;
     width:300px;
 }
+    .change{
+    z-index: 999;
+    height:400px;
+    width:600px;
+}
 }

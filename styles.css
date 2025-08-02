@@ -5,7 +5,6 @@
 }
 body{
     display: grid;
-    overflow:hidden;
     grid-template-columns: 0.5fr 2fr 0.5fr;
     grid-row: auto;
     gap: 2px;
